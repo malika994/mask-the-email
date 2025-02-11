@@ -13,9 +13,9 @@ function maskEmail(email) {
     let replaced = domain.replace(domain, repeating);
     return charat + replaced + result;
 }
-let email = "apple.pie@example.com";
+let email = "myemail@gmail.com";
 console.log(maskEmail(email));
 
-email = "freecodecamp@example.com";
+email = "newemail2015@example.com";
 console.log(maskEmail(email));
 
